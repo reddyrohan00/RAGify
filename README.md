@@ -1,24 +1,29 @@
 # RAGify
 Built a context-aware Retrieval-Augmented Generation (RAG) chatbot using LangChain, HuggingFace, OpenAI, and ChromaDB. Integrated web-based document loading,
-RAG Chatbot with Memory using LangChain, ChromaDB & OpenAI
-A context-aware Retrieval-Augmented Generation (RAG) chatbot that understands and remembers previous interactions. Built using:
+<div align="center">
 
-LangChain to orchestrate LLM chains and memory-aware retrieval.
+# 🧠 RAG Chatbot with Memory  
+**LangChain | ChromaDB | HuggingFace | OpenAI GPT-4o**
 
-ChromaDB as a vector store for semantic search over documents.
+</div>
 
-HuggingFace Embeddings (all-MiniLM-L6-v2) to convert text into vectors.
+---
 
-OpenAI GPT-4o to generate smart, concise responses.
+<div align="center">
 
-BeautifulSoup4 and WebBaseLoader to extract structured content from web pages.
+🔍 Retrieval-Augmented Generation | 🧩 Prompt Engineering | 💬 Chat History | 📚 Semantic Search
 
-Features:
+</div>
 
-Context-preserving chat history using MessagesPlaceholder.
+---
 
-Dynamic question rewriting via create_history_aware_retriever.
+## 🚀 Overview
 
-Custom prompt templates for both retrieval and generation.
+This project is an intelligent **RAG-based chatbot** capable of understanding **user context**, retrieving **relevant document chunks**, and generating **concise, accurate answers**. It combines multiple GenAI tools to deliver contextual memory-aware conversations.
 
-End-to-end NLP pipeline showcasing GenAI + prompt engineering
+---
+
+## 🛠️ Tech Stack
+
+| Tool / Library       | Purpose                              |
+|----------------------|------------------------
